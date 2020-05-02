@@ -1,0 +1,109 @@
+html{
+  min-width: 35em;
+  
+}
+
+body{
+  background-color: black;
+  font-size: 1em;
+  margin: 0.2em;
+  margin-top: 0.2em;
+  transition: all 0.5s ease-in-out;
+}
+
+header{
+  background-color: white;
+  color: red;
+  height: 5em;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+nav{
+  padding: 0em 1em;
+  display: flex;
+  align-items: center;
+}
+
+nav h1{
+  font-size: 2em;
+
+}
+
+nav li{
+  padding: 1em;
+  display: inline-block;
+  border: solid black thin;  
+}
+
+main{
+  background-color: white;
+  color: red;
+  margin-top: 0.2em;
+  min-height: 50em;
+  height: auto;
+}
+
+section{
+  padding-top: 2em;
+
+}
+
+#mainPage{
+  text-align: center;
+}
+
+.sitePaths{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.path{
+  border: solid black thin;
+  text-align: center;
+  padding:5em;
+  margin: 1em;
+  max-width: 13em;
+  min-width: 13em;
+  min-height: 13em;
+  max-height: 13em;
+}
+
+.invisible{
+  border:  none;
+}
+
+footer{
+  margin-top: 0.2em;
+  min-height: 2em;
+  background-color: white;
+}
+
+@media(max-width: 100.875em){
+  .phone{
+    display: none;
+  }
+}
+@media(max-width: 126em){
+  .smallscreen{
+    display: none;
+  }
+}
+
+@media(min-width: 126.0625em){
+  .invisible{
+    display: none;
+  }
+}
+
+
+
